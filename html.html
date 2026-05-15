@@ -10,12 +10,23 @@
     <header></header>
     <main>
         <div class="container">
-            <div>1</div>
-            <div>2</div>
-            <div>3</div>
-            <div>4</div>
-            <div>5</div>
-            <div>6</div>
+            <div class="panel header">UMA AULA SOBRE DISPLAY GRID</div>
+            <div class="panel sidebar">
+                <nav><ul><li><button><a href="html.html">Pesquisar</a></button></li>
+                    <li><button><a href="html.html">PERFIL</a></button></li>
+                    <li><button><a href="html.html">CONFIGURAÇÕES</a></button></li>
+                    <li><button><a href="https://youtu.be/Aq5WXmQQooo?si=ZuqGNRbMUkz6d8FW" target="_blank">SURPRESINHA</a></button></li>
+                    <li><button onclick="fecharJanela()">SAIR</button></li>
+
+                    <script>
+                        function fecharJanela(){
+                            window.close();
+                        }
+                    </script>
+                </ul></nav>
+            </div>
+            <div class="panel main">Meu conteúdo principal</div>
+            <div class="panel footer">número para contato: 4002-8922</div>
         </div>
     </main>
     <footer></footer>
