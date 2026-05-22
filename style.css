@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+}
+body{
+	background-color: black;
+    background-size: cover;
+    font-family: arial, Arial, Helvetica, sans-serif;
+    color: white;
+    line-height: 1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.conteiner{
+    max-width: 780px;
+    margin: 1em auto;
+    height: auto;
+    border: solid, white;
+    border-radius: 50px;
+    background-color: rgb(110, 109, 109);
+    border-left: 8px solid lightgray;
+}
+footer{
+    margin: auto;
+    border: solid, white;
+    border-radius: 100px;
+    max-width: 480px;
+    height: auto;
+}
+h1{
+    margin-top: 0;
+    color: blue;
+}
+.destak{
+    background-color: gray;
+    color: black;
+    border: solid, white;
+    border-radius: 100px;
+    margin: 1px;
+    padding: 1px;
+}
+#objetivo{
+    color: #15ba5a;
+    font-weight: bold;
+}
+button{
+    padding: 10px ,12px;
+    border-radius: 10px;
+    border: none;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgba(0, 0, 255, 0.404);
+}
+.imagem{
+    animation: mover 5s infinite alternate;
+}
+
+@keyframes mover{
+    from{
+        transform: translateX(-500px);
+    }
+
+    to{
+        transform: translateX(500px);
+    }
+}
+.bloco-aula{
+    background: #0F172A;
+    color: white;
+    width: fit-content;
+    height: auto;
+    padding: 50px;
+    margin: 20px auto;
+    font-family: Arial;
+    border-radius: 20px;
+    border-left: 8px solid #38BDF8;
+
+}
+#aula-seletores{
+    color: #2563EB;
+}
+#stilo{
+    text-align: left;
+}
+.pai{
+    text-align: center;
+    max-width: 780px;
+    background: #ccc;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 8px solid black;
+    border-radius: 5px;
+    width: 90%;
+    align-items: center;
+    height: auto;
+
+}
+
+.filha{
+    background-color:yellowgreen;
+    display: flex;
+    font-weight: bold;
+    color: aliceblue;
+    justify-content: center;
+    height: 80px;
+    align-items: center;
+    margin: 10px;
+    width: 100px;
+
+
+}
+.nao-encolhe{
+    flex-shrink: 0;
+}
+.encolhe{
+    flex-shrink: 1;
+}
+.encolhe-muito{
+    flex-shrink: 2;
+}

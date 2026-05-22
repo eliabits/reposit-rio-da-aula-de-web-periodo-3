@@ -42,3 +42,4 @@ typeof null
 '5'.padEnd(3, '-')
 'ola mundo'.slice(4, 9)
 'ola mundo'.replace('mundo', 'imundo')
+g
