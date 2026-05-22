@@ -35,3 +35,10 @@ original.push(50);
 console.log(original)
 console.log(copia)
 typeof null
+
+'ola mundo'.indexOf('mundo')
+'ha'.repeat(10)
+'5'.padStart(3, '0')
+'5'.padEnd(3, '-')
+'ola mundo'.slice(4, 9)
+'ola mundo'.replace('mundo', 'imundo')
