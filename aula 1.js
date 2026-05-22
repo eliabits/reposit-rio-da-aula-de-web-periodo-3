@@ -42,4 +42,10 @@ typeof null
 '5'.padEnd(3, '-')
 'ola mundo'.slice(4, 9)
 'ola mundo'.replace('mundo', 'imundo')
-g
+
+
+
+const dobrados = numeros.map(n => n * 2)
+const pares = numeros.filter(n => n % 2 ===0);
+const somando = numeros.reduce((acc, n)=> acc+n,0)
+const primeirando = numeros.find( n=> n>5 )
